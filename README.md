@@ -2,7 +2,7 @@
 
 This repository demonstrates how to integrate a Raspberry Pi 2 with a motion sensor using the free Balena cloud service. This setup allows users to access motion detection logs from anywhere in the world, provided there is an internet connection.
 
-![](/assets/images/tux.png)
+![](/img/theme.png)
 
 ## Key Features
 
@@ -28,9 +28,8 @@ Ever tried calling your parents only to find they've turned into undercover ninj
 
 ### Hardware Setup
 
-Refer to the following images for guidance on connecting the components:
-![](pin_sensor.png)  <!-- Image showing how the motion sensor is connected -->
-![](pin_pi2.png)    <!-- Image showing how the connections are made on the Raspberry Pi 2 -->
+Refer to the following image for guidance on connecting the components:
+![](/img/setup.png)  
 
 ### Installation
 
