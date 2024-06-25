@@ -1,4 +1,4 @@
-# Raspberry Pi Motion Detection with Balena
+# Raspberry Pi Motion Detection (PIR Motion Sensor) with Balena
 
 This repository demonstrates how to integrate a Raspberry Pi 2 with a motion sensor using the free Balena cloud service. This setup allows users to access motion detection logs from anywhere in the world, provided there is an internet connection.
 
