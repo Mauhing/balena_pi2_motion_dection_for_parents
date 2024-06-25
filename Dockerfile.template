@@ -1,13 +1,14 @@
 # base-image for python on any machine using a template variable,
 # see more about dockerfile templates here: https://www.balena.io/docs/learn/develop/dockerfile/
-FROM balenalib/%%BALENA_MACHINE_NAME%%-python:3-stretch-run
+# FROM balenalib/%%BALENA_MACHINE_NAME%%-python:3-stretch-run
+FROM balenalib/%%BALENA_MACHINE_NAME%%-python:3-buster-run
 #FROM balenalib/raspberry-pi2
 
 # use `install_packages` if you need to install dependencies,
 # for instance if you need git, just uncomment the line below.
 RUN install_packages python3-gpiozero
-
 #RUN apt-get update && apt-get install -y python3-gpiozero
+
 
 # Set our working directory
 WORKDIR /usr/src/app
